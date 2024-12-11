@@ -5,6 +5,7 @@ git clone https://github.com/hsf-india-december2024/ScientificPython
 git clone https://github.com/hsf-india-december2024/MachineLearning
 git clone https://github.com/hsf-india-december2024/PythonGPU
 git clone https://github.com/hsf-india-december2024/GPUCuda
+git clone https://github.com/hsf-india-december2024/MuonTomography
 
 rm -rf binder
 rm -rf docker_info

@@ -12,8 +12,9 @@ rm `find /srv/conda/envs -size +50M -name \*.a`
 
 # add nsys for GPU lectures
 # fragile to say the least...will need updating to keep versions current
-cd /
+mkdir nsys_work
+cd nsys_work
 wget https://developer.nvidia.com/downloads/assets/tools/secure/nsight-systems/2024_7/nsight-systems-2024.7.1_2024.7.1.84-1_amd64.deb
 ar x nsight-systems-2024.7.1_2024.7.1.84-1_amd64.deb
 tar xf data.tar.gz
-
+mv opt srv/conda/envs/notebook

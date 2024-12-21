@@ -24,6 +24,8 @@ dependencies:
   - pip:
       - astunparse
       - awkward
+      - cabinetry
+      - coffea
       - dask
       - dask-awkward
       - distributed
@@ -45,6 +47,7 @@ dependencies:
       - pyarrow
       - pybind11
       - pycuda #seems that this needs to be installed together with numpy
+      - pyhf
       - scikit-learn
       - tables
       - uproot

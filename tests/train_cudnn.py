@@ -14,8 +14,9 @@ x_test = x_test.astype("float32") / 255.0
 
 #too big for SSL GPUs
 #print(x_train.shape) 50000
-x_train=x_train[0:2500]
-y_train=y_train[0:2500]
+#but the A10s on NRP have sufficient memory
+x_train=x_train#[0:2500]
+y_train=y_train#[0:2500]
 
 
 model = keras.Sequential(

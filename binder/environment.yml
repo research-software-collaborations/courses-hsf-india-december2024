@@ -68,6 +68,8 @@ dependencies:
       #==2.3.0
       - torchvision
       - torchaudio
+      # hack to make cudnn happy - feedback from Kolkata event December 2024
+      - nvidia-cudnn-cu12 
 
       
 #variables:

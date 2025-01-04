@@ -4,6 +4,9 @@ set -e
 #i can't see why i did this - lets try moving it to the build itself
 #pip install tensorrt --extra-index-url https://pypi.nvidia.com
 
+# hack for fixing cudnn found during Kolkata 2024 event
+pip install --upgrade nvidia-cudnn-cu12
+
 # pip appears to leave behind 4GB of stuff.. lets remove it.
 pip cache purge
 

@@ -68,9 +68,6 @@ dependencies:
       #==2.3.0
       - torchvision
       - torchaudio
-      # hack to make cudnn happy - feedback from Kolkata event December 2024
-      - nvidia-cudnn-cu12 
-
       
 #variables:
 #  LD_LIBRARY_PATH: "'$LD_LIBRARY_PATH:$CONDA_PREFIX/lib/:$CONDA_PREFIX/x86_64-conda-linux-gnu/sysroot/usr/lib64/'"
